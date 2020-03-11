@@ -26,10 +26,19 @@ public class Main extends PApplet {
 		background(255);
 		p.pintar();
 		
+		
+		
+		
 		System.out.println("X:" + mouseX + ",Y;" + mouseY);
 		fill(255,0,0);
 		  textSize(30);
 		 text("X:" + mouseX + ", Y:" + mouseY, mouseX, mouseY);
+		 
+		 
+		 
+	}
+	public void mouseClicked() {
+		//p.clicked();
 	}
 	
 	public void mousePressed() {
